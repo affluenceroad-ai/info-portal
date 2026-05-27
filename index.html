@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>お知らせ</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", "Yu Gothic", sans-serif;
+    background: #f5f5f5;
+    color: #222;
+    line-height: 1.7;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+  /* 冒頭の警告バナー */
+  .alert {
+    background: #fff3cd;
+    border: 2px solid #d97706;
+    border-radius: 8px;
+    padding: 24px 20px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .alert-icon {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .alert h1 {
+    font-size: 22px;
+    margin: 8px 0 12px;
+    color: #92400e;
+    font-weight: bold;
+  }
+  .alert p.subtitle {
+    font-size: 16px;
+    color: #92400e;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  /* セクション共通 */
+  .section {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 16px 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  .section h2 {
+    font-size: 18px;
+    margin: 0 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e5e7eb;
+  }
+  .section p {
+    margin: 8px 0;
+    font-size: 15px;
+  }
+
+  /* 匿名性・口外禁止セクション（緑系） */
+  .section-info h2 {
+    color: #047857;
+    border-bottom-color: #d1fae5;
+  }
+  .section-info .icon {
+    color: #047857;
+    margin-right: 6px;
+  }
+
+  /* 対処手順セクション（青系） */
+  .section-howto h2 {
+    color: #1d4ed8;
+    border-bottom-color: #dbeafe;
+  }
+  .section-howto ol {
+    padding-left: 24px;
+    margin: 8px 0;
+  }
+  .section-howto li {
+    margin: 10px 0;
+    font-size: 15px;
+  }
+  .section-howto li strong {
+    color: #1d4ed8;
+  }
+
+  /* フッター */
+  .footer {
+    text-align: center;
+    font-size: 13px;
+    color: #6b7280;
+    padding: 24px 16px 32px;
+  }
+
+  /* 強調 */
+  .highlight {
+    background: #fef3c7;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- ====== 冒頭の警告バナー ====== -->
+  <div class="alert">
+    <div class="alert-icon">⚠️</div>
+    <h1>これは標的型攻撃メール訓練です</h1>
+    <p class="subtitle">（口外しないでください）</p>
+  </div>
+
+  <!-- ====== 匿名性の安心感 ====== -->
+  <div class="section section-info">
+    <h2><span class="icon">🔒</span>まずお伝えしたいこと</h2>
+    <p><strong>あなたがクリックしたという事実は、誰にも分かりません。</strong></p>
+    <p>この訓練では、共有メールアドレスに1通だけメールを送信し、
+       <span class="highlight">クリック数のみ</span>を集計しています。
+       誰がクリックしたかは記録していません（完全匿名）。</p>
+    <p>「自分がクリックしてしまった」と申告する必要もありません。安心してください。</p>
+  </div>
+
+  <!-- ====== 口外禁止のお願い ====== -->
+  <div class="section section-info">
+    <h2><span class="icon">🤫</span>他の社員には、しばらく内緒に</h2>
+    <p>この訓練は、千代田の全社員を対象に <span class="highlight">継続中</span> です。</p>
+    <p>「あのメールは訓練だよ」と社内で共有してしまうと、
+       他の社員の訓練効果が失われてしまいます。</p>
+    <p>訓練が終了するまでの間、同僚との話題にしないようご協力をお願いします。
+       訓練終了後、改めて結果報告と振り返りの場を設けます。</p>
+  </div>
+
+  <!-- ====== 対処手順 ====== -->
+  <div class="section section-howto">
+    <h2>💡 もし本物のフィッシングだったら？ — 対処手順</h2>
+    <p>今回は訓練ですが、もし本物の標的型攻撃メールでリンクをクリックしてしまった場合は、
+       以下の手順で対処してください。</p>
+    <ol>
+      <li>
+        <strong>ネットワークから切断する</strong><br>
+        PCのLANケーブルを抜く、または Wi-Fi をオフにする。
+        マルウェアの場合、外部との通信を遮断することが最優先です。
+      </li>
+      <li>
+        <strong>クリックしたページに何か入力した場合は、すぐにパスワード変更</strong><br>
+        ID・パスワード・クレジットカード番号などを入力してしまった場合、
+        該当サービスのパスワードを「別の安全な端末」から直ちに変更してください。
+      </li>
+      <li>
+        <strong>ウイルススキャンを実行</strong><br>
+        Windows Defender などのセキュリティソフトで、PC全体をフルスキャン。
+      </li>
+      <li>
+        <strong>上長または舩木に連絡</strong><br>
+        どのメールを、いつ、何をクリックしたかを正直に伝えてください。
+        早く伝えるほど、被害を抑えられます。
+        「怒られるかも」と隠すと、かえって被害が拡大します。
+      </li>
+      <li>
+        <strong>同じ送信元の他メールも開かない</strong><br>
+        同じ攻撃者から複数のメールが届いている可能性があります。
+        該当メールは削除せず、上長の指示を待ってください。
+      </li>
+    </ol>
+  </div>
+
+  <div class="footer">
+    千代田 情報セキュリティ訓練 ／ 第1回（2026年6月）
+  </div>
+
+</div>
+
+<!-- ====== クリック記録用スクリプト ====== -->
+<script>
+(function() {
+  // URLからクエリパラメータ t（訓練回次）を取得
+  var params = new URLSearchParams(window.location.search);
+  var t = params.get('t') || 'unknown';
+
+  // ============================================================
+  // GAS（Google Apps Script）のWebアプリURL
+  // セットアップ手順書に従ってGASを公開後、ここに貼り付けてください
+  // ============================================================
+  var GAS_URL = 'https://script.google.com/macros/s/AKfycbyhrL1rZ3D7KYSYWYjQ4cU6cCSId-63yoQuad0yQ_soMqhCKwiOlAFs3yb-9s_XX3gx/exec';
+
+  // GASにクリックを通知（imgタグGET方式：CORSエラーを回避）
+  if (GAS_URL && GAS_URL.indexOf('[GAS') !== 0) {
+    try {
+      var img = new Image();
+      img.src = GAS_URL + '?t=' + encodeURIComponent(t) + '&ts=' + Date.now();
+    } catch(e) {
+      // 通信エラーは無視（訓練に影響しないように）
+    }
+  }
+})();
+</script>
+
+</body>
+</html>
